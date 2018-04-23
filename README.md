@@ -10,6 +10,19 @@ Antes de ejecutar el script asegúrate de tener instalado youtube-dl en tu Linux
 sudo apt-get install youtube-dl
 ```
 
+# Dispositivos Testeados
+```sh
+[-] Smart TV AOC
+[-] Smart TV Recco
+[-] Smart TV Samsung
+[-] Smart TV LG
+[-] Android TV 
+```
+
+```sh
+sudo apt-get install youtube-dl
+```
+
 # Instalación
 ```sh
 git clone https://github.com/SVelizDonoso/taketv.git
@@ -210,6 +223,6 @@ Ctrl + C para Salir.
 Este software se creo SOLAMENTE para fines educativos. No soy responsable de su uso. Úselo con extrema precaución.
 
 # Autor
-@sveliz https://github.com/SVelizDonoso/
+@svelizdonoso https://github.com/SVelizDonoso/
 
 
