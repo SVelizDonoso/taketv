@@ -63,7 +63,7 @@ def downloadImage(url):
 	    print "[-] Descarga Completada..."
     except:
 	    pass
-	print ""
+    print ""
 
 def makedir():
     try:
@@ -92,7 +92,7 @@ def listfile(ip,port=3000):
 	print ""
 
 def help():
-	parser = argparse.ArgumentParser("Uso: '%(prog)s 1.0' --httpserver --port 80000")
+	parser = argparse.ArgumentParser("Uso: python assistent.py --httpserver --port 8000")
 	parser.add_argument('--url', help='URL del recurso ')
 	parser.add_argument('--port', help='Puerto a la Escucha Servidor Local')
 	parser.add_argument('--httpserver', action="store_true",help='Levantar Servidor local')
@@ -106,7 +106,6 @@ def help():
 
 print """
      
-
 	████████╗ █████╗ ██╗  ██╗███████╗████████╗██╗   ██╗
 	╚══██╔══╝██╔══██╗██║ ██╔╝██╔════╝╚══██╔══╝██║   ██║
 	   ██║   ███████║█████╔╝ █████╗     ██║   ██║   ██║
@@ -114,12 +113,8 @@ print """
 	   ██║   ██║  ██║██║  ██╗███████╗   ██║    ╚████╔╝ 
 	   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝     ╚═══╝  
                                                                        
-
-
       Servidor WEB LOCAL y Asistente de Descargas de Archivos Multimedia.
       Autor: @svelizdonoso
-
-	
 
 """
 
