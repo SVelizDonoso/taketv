@@ -17,10 +17,7 @@ sudo apt-get install youtube-dl
 [-] Smart TV Samsung
 [-] Smart TV LG
 [-] Android TV 
-```
-
-```sh
-sudo apt-get install youtube-dl
+[-] ?
 ```
 
 # Instalación
